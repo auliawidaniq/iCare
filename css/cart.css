@@ -1,0 +1,93 @@
+.cart {
+    margin: 10rem auto;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .cart-info {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  th {
+    text-align: left;
+    padding: 0.5rem;
+    color: #fff;
+    background-color: orange;
+    font-weight: normal;
+  }
+  
+  td {
+    padding: 1rem 0.5rem;
+    color: orange;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+
+  }
+  
+  td input {
+    width: 4rem;
+    height: 3rem;
+    padding: 0.5rem;
+    color: white;
+    text-align: center;
+  }
+  
+  td a {
+    color: rgb(255, 203, 106);
+    font-size: 1rem;
+  }
+  
+  td p, span{
+      color: orange;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+  }
+  td img {
+    width: 8rem;
+    height: 8rem;
+    margin-right: 1rem;
+  }
+  
+  .total-price {
+    display: flex;
+    justify-content: flex-end;
+    align-items: end;
+    flex-direction: column;
+    margin-top: 2rem;
+  }
+  
+  .total-price table {
+    border-top: 3px solid rgb(255, 187, 62);
+    width: 100%;
+    max-width: 35rem;
+  }
+  td:last-child {
+    text-align: right;
+  }
+  
+  th:last-child {
+    text-align: right;
+  }
+.checkout-btn{
+    background-color: orange;
+    margin-left: 105px;
+    color: white;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 10px;
+    border-radius: 3px;
+    width: 300px;
+    box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.1);
+}
+
+  
+  @media only screen and (max-width: 567px) {
+    .cart-info p {
+      display: none;
+    }
+  }

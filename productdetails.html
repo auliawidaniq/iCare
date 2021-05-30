@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+
+  <!-- FontAwesome--------------->
+  <script crossorigin="anonymous" src="https://kit.fontawesome.com/c8e4d183c2.js"></script>
+
+  <!-- Box icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css" />
+
+  <!-- Glidejs -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/css/glide.core.css" />
+
+  <!--js-link--------------------->
+  <script src="js/Jquery.js"></script>
+
+  <!-- details -->
+  <link rel="stylesheet" href="css/details.css"> 
+
+  <!-- navbar -->
+  <link rel="stylesheet" href="css/style.css"> 
+ 
+ <title>iCare - Product Detail</title>
+ <link rel="shortcut icon" href="img/smile.png">
+ 
+</head>
+
+<body>
+  <!-- menu -->
+ <nav class="navigation">
+
+   <!-- menu-icon -->
+   <div class="toggle"></div>
+
+    <!-- logo -->
+    <a href="#" class="logo"><img src="img/smile.png"></a>
+    
+    <!-- menu -->
+    <ul class="menu">
+        <a href="index.html#home">Home</a>
+        <a href="index.html#best" >Best Seller</a>
+        <a href="index.html#Category" >Category</a>
+        <a href="index.html#reviews">Reviews</a>
+        <a href="index.html#about">About Us</a>
+        <a href="index.html#contact">Contact Us</a>
+        <input type="text" placeholder="Search">
+       </ul>
+
+    <!-- right-menu -->
+    <div class="right-menu">
+       <a href="javascript:void(0);" class="user">
+           <i class="fa fa-user" aria-hidden="true"></i>
+       </a>
+       <a href="#">
+           <i class="fas fa-shopping-cart">
+               <span class="num-cart-product">0</span>
+           </i>
+       </a>
+    </div>
+    
+     
+   </nav>
+
+    <!-- login n sign-up -->
+   <div class="form">
+       <!-- login -->
+       <div class="login-form">
+           <!-- cancel-btn -->
+           <a href="javascript:void(0);" class="form-cancel">
+               <i class="fas fa-times"></i>
+           </a>
+           <strong>Log In</strong>
+           <!--inputs-->
+           <form>
+               <input type="email" name="email" placeholder="Example@gmail.com" required/>
+               <input type="password" name="password" placeholder="Password" required/>
+               <input type="submit" value="Log In"/>
+           </form>
+           <!--forget-and-sign-up-btn-->
+           <div class="form-btns">
+               <a href="#" class="forget">Forget Your Password?</a>
+               <a href="javascript:void(0);" class="sign-up-btn">Create Account</a>
+           </div>
+       </div>
+           <!-- Sign-up -->
+           <div class="signup-form">
+               <!-- cancel-btn -->
+           <a href="javascript:void(0);" class="form-cancel">
+               <i class="fas fa-times"></i>
+           </a>
+               <strong>Sign Up</strong>
+               <!--inputs-->
+               <form>
+                   <input type="text" name="fullname" placeholder="Full Name" required/>
+                   <input type="email" name="email" placeholder="Example@gmail.com" required/>
+                   <input type="password" name="password" placeholder="Password" required/>
+                   <input type="submit" value="Sign Up"/>
+               </form>
+               <!--forget-and-sign-up-btn-->
+               <div class="form-btns">
+                   <a href="javascript:void(0);" class="already-account">
+                       Already Have Account?</a>
+   
+               </div>
+           </div>
+   </div>
+
+  <!-- Product Details -->
+  <section class="section product-detail">
+    <div class="details container-md">
+      <div class="left">
+        <div class="main">
+          <img src="img/berry (3).jpeg" alt="">
+        </div>
+        <div class="thumbnails">
+          <div class="thumbnail">
+            <img src="img/Oily.jpeg" alt="">
+          </div>
+          <div class="thumbnail">
+            <img src="img/Oily1.jpeg" alt="">
+          </div>
+          <div class="thumbnail">
+            <img src="img/berry (4).jpeg" alt="">
+          </div>
+          <div class="thumbnail">
+            <img src="img/berry (5).jpeg" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="right">
+        
+        <h1>JUICY <br> KITTEN</h1>
+        <div class="price">$22.00</div>
+        <form>
+          <div>
+            <select>
+              <option value="Select Size" selected disabled>Select Size</option>
+              <option value="1">10 mL</option>
+              <option value="2">30 mL</option>
+              <option value="3">50 mL</option>
+              <option value="4">100 mL</option>
+            </select>
+            <span><i class='bx bx-chevron-down'></i></span>
+          </div>
+        </form>
+
+        <form class="form">
+          <input type="text" placeholder="1">
+          <a href="cart.html" class="addCart">Add To Cart</a>
+        </form>
+        <h3>Product Detail</h3>
+        <p>Purifying serum that effectively helps to control oily skin. It regulates sebum secretion 
+        and shrinks pores, providing an even and shine-free complexion.</p>
+        <div class="title">
+            <a href="cart.html" class="btn"> Add to Cart</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Related -->
+  <section class="section featured">
+    <div class="top container">
+      <h1>Related Products</h1>
+      <a href="oily.html" class="view-more" style="color: orange;">View more</a>
+    </div>
+
+    <div class="product-center container">
+      <div class="product">
+        <div class="product-header">
+          <img src="img/Oily.jpeg" alt="">
+          <ul class="icons">
+            <span><i class="bx bx-shopping-bag"></i></span>
+          </ul>
+        </div>
+        <div class="product-footer">
+          <a href="productdetails.html"><h3>Say You Dew</h3></a>
+          <div class="rating">
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bx-star"></i>
+          </div>
+          <h4 class="price">$49.00</h4>
+        </div>
+      </div>
+      <div class="product">
+        <div class="product-header">
+          <img src="img/Oily1.jpeg" alt="">
+
+          <ul class="icons">
+            <span><i class="bx bx-shopping-bag"></i></span>
+          </ul>
+        </div>
+        <div class="product-footer">
+          <a href="productdetails.html"><h3>Chill Kitten</h3></a>
+          <div class="rating">
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bx-star"></i>
+          </div>
+          <h4 class="price">$79.00</h4>
+        </div>
+      </div>
+      <div class="product">
+        <div class="product-header">
+          <img src="img/berry (4).jpeg" alt="">
+
+          <ul class="icons">
+            <span><i class="bx bx-shopping-bag"></i></span>
+          </ul>
+        </div>
+        <div class="product-footer">
+          <a href="productdetails.html"><h3>Matcha Mood</h3></a>
+          <div class="rating">
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bx-star"></i>
+          </div>
+          <h4 class="price">$74</h4>
+        </div>
+      </div>
+      <div class="product">
+        <div class="product-header">
+          <img src="img/berry (5).jpeg" alt="">
+
+          <ul class="icons">
+            <span><i class="bx bx-shopping-bag"></i></span>
+          </ul>
+        </div>
+        <div class="product-footer">
+          <a href="productdetails.html"><h3>Namaste Kitten</h3></a>
+          <div class="rating">
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bx-star"></i>
+          </div>
+          <h4 class="price">$74.00</h4>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--footer---------------------------->
+  <footer>
+    <!--socail-->
+<div class="social" id="contact">
+    <h1>Social Media</h1>
+    <div class="social-icons">
+    <a href="#"><i class="fab fa-facebook-f"></i></a>
+    <a href="#"><i class="fab fa-twitter"></i></a>
+    <a href="#"><i class="fab fa-instagram"></i></a>
+    <a href="#"><i class="fab fa-youtube"></i></a>
+    </div>
+    </div>
+    <!--copyright-------------->
+    <span class="copyright">
+        Copyright 2020 - iCare
+    </span>
+    <!--subcribe---------------->
+    <div class="subscribe">
+        <form>
+        <input type="email" placeholder="Example@gmail.com" required/>
+        <input type="submit" value="Subscribe">
+        </form>
+    </div>
+</footer>
+
+
+<script type="text/javascript">
+// login
+$(document).on('click','.user,.already-account',function(){
+    $('.form').addClass('login-active').removeClass('sign-up-active')
+});
+// sign up
+$(document).on('click','.sign-up-btn',function(){
+    $('.form').addClass('sign-up-active').removeClass('login-active')
+});
+//cancel
+$(document).on('click','.form-cancel',function(){
+    $('.form').removeClass('login-active').removeClass('sign-up-active')
+});
+// slider 
+   $(document).ready(function() {
+$('#adaptive').lightSlider({
+    adaptiveHeight:true,
+    auto:true,
+    item:1,
+    slideMargin:0,
+    loop:true
+});
+});
+// di reviews
+$(document).ready(function() {
+$('#autoWidth').lightSlider({
+    autoWidth:true,
+    loop:true,
+    onSliderLoad: function() {
+        $('#autoWidth').removeClass('cS-hidden');
+    } 
+});  
+});
+// bagian menu
+$(document).ready(function(){
+    $('.toggle').click(function(){
+        $('.toggle').toggleClass('active')
+        $('.navigation').toggleClass('active')
+    })
+});
+</script>
+</body>
+
+</html>
